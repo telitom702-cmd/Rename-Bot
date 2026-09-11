@@ -4,9 +4,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
 
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "24776633")
+    API_HASH = os.environ.get("API_HASH", "57b1f632044b4e718f5dce004a988d69")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8735063781:AAEcNthLahyDBz5I2URdULmUDTm2RpE2Xxw") 
     BOT = None
 
     # premium account string session required 😢 
@@ -14,13 +14,13 @@ class Config(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL", "")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://rendamd1_db_user:M7vb8ZD9rx0AfHnP@cluster0.uzqvib6.mongodb.net/?appName=Cluster0")
  
     # other configs
     PIC = os.environ.get("PIC", "https://i.ibb.co/YTk9gzhY/IMG-20250906-144306-804.jpg")
-    ADMIN = int(os.environ.get("ADMIN", "1255023013"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
-    BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", ""))
+    ADMIN = int(os.environ.get("ADMIN", "8248792819"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003084490680"))
+    BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", "-1003084490680"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
