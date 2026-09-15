@@ -6,7 +6,7 @@ class Config(object):
 
     API_ID = os.environ.get("API_ID", "24776633")
     API_HASH = os.environ.get("API_HASH", "57b1f632044b4e718f5dce004a988d69")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8735063781:AAEcNthLahyDBz5I2URdULmUDTm2RpE2Xxw") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8823668328:AAEHQyUmGYBuu-d8BoHOvqE4OYp4sPxqjOs") 
     BOT = None
 
     # premium account string session required 😢 
@@ -19,8 +19,8 @@ class Config(object):
     # other configs
     PIC = os.environ.get("PIC", "https://i.ibb.co/YTk9gzhY/IMG-20250906-144306-804.jpg")
     ADMIN = int(os.environ.get("ADMIN", "8248792819"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003084490680"))
-    BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", "-1003084490680"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1004456487791"))
+    BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", "-1004468070238"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
